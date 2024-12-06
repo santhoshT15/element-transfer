@@ -1,0 +1,44 @@
+.container{
+  display: block;
+  background-color: aliceblue;
+}
+
+.container-main {
+  display: flex;
+  margin:auto;
+  width:35%;
+  
+}
+
+h3 {
+  text-align: center;
+}
+
+.bucket {
+  width: 200px;
+  border: solid;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.button {
+  margin: auto;
+  width: 50%;
+  margin: 7px;
+  text-align: center;
+
+}
+
+.btn.selected {
+  background-color: grey;
+}
+
+button {
+  margin: 10px;
+}
